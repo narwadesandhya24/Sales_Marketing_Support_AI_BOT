@@ -1,0 +1,42 @@
+[
+  {
+    "id": "p1",
+    "name": "Acme Productivity Suite",
+    "category": "SaaS",
+    "price": 49.0,
+    "description": "An integrated suite for task management, collaboration, and reporting. Ideal for small to medium teams.",
+    "tags": ["productivity", "collaboration", "task-management"]
+  },
+  {
+    "id": "p2",
+    "name": "Acme Analytics Pro",
+    "category": "Analytics",
+    "price": 99.0,
+    "description": "Advanced analytics platform with dashboards, anomaly detection, and real-time reporting.",
+    "tags": ["analytics", "dashboard", "business-intelligence"]
+  },
+  {
+    "id": "p3",
+    "name": "Acme CRM Enterprise",
+    "category": "CRM",
+    "price": 199.0,
+    "description": "Customer relationship management tool with pipeline tracking, automation, and integrations with email and chat.",
+    "tags": ["crm", "sales", "automation"]
+  },
+  {
+    "id": "p4",
+    "name": "Acme Marketing Hub",
+    "category": "Marketing",
+    "price": 149.0,
+    "description": "Marketing automation tool for campaigns, A/B testing, email marketing, and lead scoring.",
+    "tags": ["marketing", "automation", "email", "leads"]
+  },
+  {
+    "id": "p5",
+    "name": "Acme Helpdesk",
+    "category": "Support",
+    "price": 79.0,
+    "description": "Customer support and ticketing system with knowledge base integration and live chat support.",
+    "tags": ["support", "helpdesk", "ticketing", "customer-service"]
+  }
+]
