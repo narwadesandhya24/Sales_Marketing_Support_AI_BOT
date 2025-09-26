@@ -1,16 +1,16 @@
-# AI-Powered Sales, Marketing & Support Assistant
+#  AI-Powered Sales, Marketing & Support Assistant
 
 This project is an **end-to-end AI platform** that automates three core business functions:
 
 -  **Sales Recommender** → Suggests the most relevant products to customers using semantic search + LLM explanations.  
 -  **Social Media Creator** → Generates marketing captions and campaign ideas.  
-- **Support Bot** → Answers FAQs or falls back to AI when no FAQ is found.  
+-  **Support Bot** → Answers FAQs or falls back to AI when no FAQ is found.  
 
 Built with **FastAPI + Streamlit**, powered by **Sentence Transformers, FAISS, and Hugging Face-hosted LLMs**.
 
 ---
 
-## Features
+##  Features
 - **Unified Assistant** → Sales, Marketing, and Support in one interface.  
 - **Semantic Search** → Uses [Sentence Transformers](https://www.sbert.net/) for query embeddings.  
 - **Vector Database** → FAISS for fast similarity search.  
@@ -32,44 +32,20 @@ Frontend (Streamlit)  --->  Backend (FastAPI)
 
 ---
 
-##  Project Structure
-
-Project/
-│
-├── app/
-│   └── streamlit_app.py       # Streamlit frontend
-│
-├── backend/
-│   ├── main.py                # FastAPI entrypoint
-│   ├── recommender.py         # Sales recommender module
-│   ├── social_media.py        # Social media module
-│   ├── support_bot.py         # Support chatbot
-│   ├── vector_store.py        # FAISS + embeddings
-│   ├── utils.py               # Hugging Face client setup
-│   └── __init__.py
-│
-├── data/
-│   ├── products.json          # Product catalog
-│   └── faq.csv                # FAQ knowledge base
-│
-├── requirements.txt
-├── README.md
-└── .env
-
----
 
 ##  Setup Instructions
 
 ### 1. Clone Repo
 ```bash
-git clone https://github.com/yourusername/ai-assistant.git
-cd ai-assistant
+git clone https://github.com/narwadesandhya24/Sales_Marketing_Support_AI_BOT
 ```
 
 ### 2. Create Virtual Environment
 ```bash
 python -m venv venv
+
 source venv/bin/activate   # (Linux/macOS)
+
 venv\Scripts\activate      # (Windows)
 ```
 
@@ -81,7 +57,8 @@ pip install -r requirements.txt
 ### 4. Add Environment Variables
 Create a `.env` file in the project root:
 ```
-HF_TOKEN=your_huggingface_api_token
+HF_TOKEN=<your_huggingface_api_token>
+
 ```
 
 ---
@@ -94,8 +71,8 @@ python -m uvicorn backend.main:app --reload
 ```
 
 Backend will be live at:  
- - http://127.0.0.1:8000  
- - Swagger docs: http://127.0.0.1:8000/docs  
+ http://127.0.0.1:8000  
+ Swagger docs: http://127.0.0.1:8000/docs  
 
 ### Start Frontend (Streamlit)
 ```bash
@@ -103,7 +80,7 @@ streamlit run app/streamlit_app.py
 ```
 
 Streamlit UI will be live at:  
-- http://localhost:8501  
+ http://localhost:8501  
 
 ---
 
